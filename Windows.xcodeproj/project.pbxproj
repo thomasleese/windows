@@ -45,6 +45,7 @@
 		5D9EBA8D2BF610E4004E473E /* WindowsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowsUITests.swift; sourceTree = "<group>"; };
 		5D9EBA8F2BF610E4004E473E /* WindowsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5DFCA9462BF64225001CC2B8 /* Windows.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Windows.entitlements; sourceTree = "<group>"; };
+		5DFCA9472BF642C7001CC2B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,7 @@
 		5D9EBA712BF610E2004E473E /* Windows */ = {
 			isa = PBXGroup;
 			children = (
+				5DFCA9472BF642C7001CC2B8 /* Info.plist */,
 				5DFCA9462BF64225001CC2B8 /* Windows.entitlements */,
 				5D9EBA722BF610E2004E473E /* WindowsApp.swift */,
 				5D9EBA742BF610E2004E473E /* ContentView.swift */,
@@ -428,6 +430,7 @@
 				DEVELOPMENT_TEAM = V6NT6995M3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Windows/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -458,6 +461,7 @@
 				DEVELOPMENT_TEAM = V6NT6995M3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Windows/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
