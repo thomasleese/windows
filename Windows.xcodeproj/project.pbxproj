@@ -14,6 +14,7 @@
 		5D9EBA842BF610E4004E473E /* WindowsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EBA832BF610E4004E473E /* WindowsTests.swift */; };
 		5D9EBA8E2BF610E4004E473E /* WindowsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EBA8D2BF610E4004E473E /* WindowsUITests.swift */; };
 		5D9EBA902BF610E4004E473E /* WindowsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EBA8F2BF610E4004E473E /* WindowsUITestsLaunchTests.swift */; };
+		5DFCA9492BF64468001CC2B8 /* WindowTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFCA9482BF64468001CC2B8 /* WindowTracker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		5D9EBA8F2BF610E4004E473E /* WindowsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5DFCA9462BF64225001CC2B8 /* Windows.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Windows.entitlements; sourceTree = "<group>"; };
 		5DFCA9472BF642C7001CC2B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5DFCA9482BF64468001CC2B8 /* WindowTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowTracker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				5D9EBA742BF610E2004E473E /* ContentView.swift */,
 				5D9EBA762BF610E3004E473E /* Assets.xcassets */,
 				5D9EBA782BF610E3004E473E /* Preview Content */,
+				5DFCA9482BF64468001CC2B8 /* WindowTracker.swift */,
 			);
 			path = Windows;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DFCA9492BF64468001CC2B8 /* WindowTracker.swift in Sources */,
 				5D9EBA752BF610E2004E473E /* ContentView.swift in Sources */,
 				5D9EBA732BF610E2004E473E /* WindowsApp.swift in Sources */,
 			);
